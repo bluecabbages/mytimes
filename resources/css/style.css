@@ -37,11 +37,6 @@ nav span {
 
 }
 
-div {
-  border: 1px solid black;
-  display: block;
-}
-
 p {
   display: block;
   margin-block-start: 1em;
@@ -103,6 +98,7 @@ p {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .lead-story {
@@ -116,13 +112,28 @@ p {
   color: white;
   }
 
+.stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textcontent {
+  height: 250px;
+}
+
+.story {
+  flex-flow: column nowrap;
+  width: 300px;
+;
+
+}
 }
 .narrative {
   font-size: 17px;
   color: black;
+  margin-top: 16px;
 }
-
-
 
 .fall-cancelled.image-content {
   background-image: url(../images/img-story-2.png);
