@@ -94,12 +94,45 @@ p {
   width: 240px;
 }
 
+.lead-story, .story, .image-content, .narrative {
+  font-family: Georgia;
+}
+
+.image-content {
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 .lead-story {
+  background-image: url(../images/img-story-main.png);
+  width: 630px;
+  height: auto;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  }
 
 }
-
 .narrative {
-
+  font-size: 17px;
+  color: black;
 }
 
+
+
+.fall-cancelled.image-content {
+  background-image: url(../images/img-story-2.png);
+}
+
+.pop-culture.image-content {
+  background-image: url(../images/img-story-3.png);
+}
+
+.cat-ceo.image-content {
+  background-image: url(../images/img-story-1.png);
+}
 .bite
