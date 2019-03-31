@@ -4,7 +4,9 @@ html  {
 }
 
 body {
+  height: 0;
   width: 100%;
+  margin: 0;
 }
 
 a {
@@ -15,18 +17,24 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
-  width: 100%
+  z-index: 1;
   height: 80px;
+  width: 100%;
   border-bottom: 1px solid black;
   background-color: white;
   font-size: 14px;
   font-weight: bold;
 }
 
+header nav {
+  padding-right: 40px;
+  justify-content: flex-end;
+}
+
 nav span {
   display: inline-block;
-  padding-left: 20px 10px;
-  align-items: right;
+  padding: 20px 10px;
+
 }
 
 .logo {
