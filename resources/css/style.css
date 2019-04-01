@@ -10,6 +10,11 @@ a {
   color: black;
 }
 
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -86,20 +91,24 @@ nav span {
 }
 
 .image-content {
+  display: flex;
   height: 300px;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  align-items: center;
   text-align: center;
 }
 
 .lead-story {
+  display: flex;
   background-image: url(../images/img-story-main.png);
   width: 630px;
-  height: auto;
+  height: 300px;
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+  align-items: center;
   font-weight: bold;
   color: white;
   }
@@ -107,7 +116,8 @@ nav span {
 .stories {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .textcontent {
@@ -117,10 +127,8 @@ nav span {
 .story {
   flex-flow: column nowrap;
   width: 300px;
-;
+}
 
-}
-}
 .narrative {
   font-size: 17px;
   color: black;
